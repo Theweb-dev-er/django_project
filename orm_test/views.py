@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse('welcome')
+    return HttpResponse('welcome gfgfg')
     
 
 # Create your views here.
