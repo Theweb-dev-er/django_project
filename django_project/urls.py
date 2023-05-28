@@ -19,6 +19,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('orm_test.urls'))
+    path('',include('orm_test.urls')),
+    path('query-builder', include('query_builder.urls')),
     
 ]
